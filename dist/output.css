@@ -510,9 +510,6 @@
   .min-h-\[75px\] {
     min-height: 75px;
   }
-  .min-h-\[84px\] {
-    min-height: 84px;
-  }
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
@@ -1401,13 +1398,6 @@
       }
     }
   }
-  .hover\:bg-blue-600 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-blue-600);
-      }
-    }
-  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
@@ -1492,13 +1482,6 @@
       }
     }
   }
-  .hover\:text-purple-700 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-purple-700);
-      }
-    }
-  }
   .hover\:text-slate-900 {
     &:hover {
       @media (hover: hover) {
@@ -1556,11 +1539,6 @@
   .max-lg\:-order-1 {
     @media (width < 64rem) {
       order: calc(1 * -1);
-    }
-  }
-  .max-lg\:ml-auto {
-    @media (width < 64rem) {
-      margin-left: auto;
     }
   }
   .max-lg\:block {
@@ -1898,11 +1876,6 @@
   .lg\:max-w-7xl {
     @media (width >= 64rem) {
       max-width: var(--container-7xl);
-    }
-  }
-  .lg\:max-w-lg {
-    @media (width >= 64rem) {
-      max-width: var(--container-lg);
     }
   }
   .lg\:max-w-screen-xl {
